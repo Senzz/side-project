@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>注册</title>
+  <style>
+    .register {
+      display: flex;
+      width: 100%;
+      height: 550px;
+    }
+    div.content{
+      margin: auto;
+    }
+    div.input{
+      margin: 5px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="register">
+    <div class='content'>
+      <div>
+        <p style="color: red">
+          <%= message %>
+        </p>
+        <!-- <p>正确账号密码是：admin/admin</p> -->
+      </div>
+      <form action="/register" method="POST">
+        <div class="input">
+          用户名：<input type="text" name='name' />
+        </div>
+        <div class="input">
+            　密码：<input type="password" name='pass'>
+        </div>
+        <div class="input">
+          <button type="submit">注册</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    
+  </script>
+</body>
+</html>
