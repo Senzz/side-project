@@ -1,0 +1,11 @@
+.navigation > a {
+  padding: 5px 20px;
+  display: inline-block;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.selected{
+  background-color: #1890ff;
+  color: #fff;
+  
+}

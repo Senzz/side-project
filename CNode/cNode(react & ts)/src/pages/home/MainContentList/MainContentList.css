@@ -1,0 +1,14 @@
+.navigation{
+  display: flex;
+  justify-content: flex-start;
+}
+.navigation > a{
+  margin-right: 15px;
+}
+/* page */
+.pagination {
+  position: fixed;
+  bottom: 15px;
+  right: 70px;
+
+}
